@@ -40,6 +40,7 @@
 		14C3A09D201CA62000C7A28C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3A09C201CA62000C7A28C /* Shape.swift */; };
 		14D753A91FE173C80038F931 /* CommandFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753A81FE173C80038F931 /* CommandFill.swift */; };
 		14D753AB1FE17D290038F931 /* Vec2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753AA1FE17D290038F931 /* Vec2D.swift */; };
+		F1053EC521824C4C00BC4244 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1053EC421824C4C00BC4244 /* extensions.swift */; };
 		OBJ_109 /* TortoiseGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* TortoiseGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		14C3A09C201CA62000C7A28C /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		14D753A81FE173C80038F931 /* CommandFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandFill.swift; sourceTree = "<group>"; };
 		14D753AA1FE17D290038F931 /* Vec2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2D.swift; sourceTree = "<group>"; };
+		F1053EC421824C4C00BC4244 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		OBJ_53 /* TortoiseGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TortoiseGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_54 /* TortoiseGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TortoiseGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F1053EC421824C4C00BC4244 /* extensions.swift */,
 				1456315F1FE4863200B3B2A9 /* Canvas.swift */,
 				145624971EDAA48D00173B9A /* ImageCanvas.swift */,
 				14B44CDE1FE557C300E0144B /* GraphicsCanvas.swift */,
@@ -286,6 +289,7 @@
 			buildActionMask = 0;
 			files = (
 				145631601FE4863200B3B2A9 /* Canvas.swift in Sources */,
+				F1053EC521824C4C00BC4244 /* extensions.swift in Sources */,
 				14D753A91FE173C80038F931 /* CommandFill.swift in Sources */,
 				142F5C981EDC6165008BEFAB /* Tortoise+PenControl.swift in Sources */,
 				14D753AB1FE17D290038F931 /* Vec2D.swift in Sources */,
