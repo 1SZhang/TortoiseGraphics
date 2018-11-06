@@ -21,11 +21,11 @@ class CanvasView: NSView {
             t.showTortoise()
             t.goto(-550, 50)
             t.setHeading(90)
+            t.penSize(3)
             
             // Draw lower guide line
             t.penColor(.black)
             t.penUp()
-            t.penSize(1)
             t.forward(50)
             t.penDown()
             t.forward(1000)
@@ -115,7 +115,7 @@ class CanvasView: NSView {
             
             // Z
             t.penUp()
-            t.forward(150)
+            t.forward(100)
             t.left(88)
             t.forward(50)
             
@@ -139,10 +139,16 @@ class CanvasView: NSView {
             t.curve(withSides: 38, withSize: 10, drawSides: 6)
             
             // h
-            t.left(45)
+            t.left(28)
             t.penDown()
             t.forward(25)
-            t.curve(withSides: -30, withSize: 8, drawSides: 5)
+            t.curve(withSides: -1300 , withSize: 1, drawSides: 55)
+            t.penColor(.green)
+            t.curve(withSides: -40, withSize: 1, drawSides: 12)
+            t.penColor(.red)
+            t.curve(withSides: -200, withSize: 12, drawSides: 10)
+           
+            t.penSize(1.0)
         }
     }
     
