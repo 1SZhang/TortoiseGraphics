@@ -142,13 +142,32 @@ class CanvasView: NSView {
             t.left(28)
             t.penDown()
             t.forward(25)
-            t.curve(withSides: -1300 , withSize: 1, drawSides: 55)
-            t.penColor(.green)
-            t.curve(withSides: -40, withSize: 1, drawSides: 12)
-            t.penColor(.red)
-            t.curve(withSides: -200, withSize: 12, drawSides: 10)
+            t.curve(withSides: -300 , withSize: 8, drawSides: 10)
+            t.curve(withSides: -60, withSize: 2, drawSides: 12)
+            t.left(120)
+            t.curve(withSides: -300, withSize: 12, drawSides: 9)
            
-            t.penSize(1.0)
+            
+            
+            
+            // bottom curve
+            
+            t.left(180)
+            t.curve(withSides:40, withSize: 10, drawSides: 5)
+            t.curve(withSides: 8, withSize: 10, drawSides: 4)
+            t.penDown()
+            t.left(60)
+            t.forward(13)
+            t.curve(withSides: -5, withSize: 11, drawSides: 3)
+            t.right(95)
+            
+            // a
+            // upper curve
+            
+            t.penDown()
+            t.forward(40)
+            t.left(80)
+            
         }
     }
     
