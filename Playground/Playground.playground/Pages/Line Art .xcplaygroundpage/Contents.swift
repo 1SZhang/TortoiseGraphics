@@ -80,7 +80,7 @@ canvas.drawing { t in
     t.goto(0,0)
     
     t.penDown()
-    for _ in 1...40 {
+    for _ in 1...30 {
         
         // Turn a random amount
         let turn = t.random(360)
@@ -151,5 +151,5 @@ canvas.drawing { t in
             t.right(randomTurn)
             t.forward(randomDistence)
         }
-    
+    t.hideTortoise()
 }
