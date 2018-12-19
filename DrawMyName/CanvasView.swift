@@ -40,20 +40,7 @@ class CanvasView: NSView {
             t.left(90)
             // P
             
-            // Draw stick
-            t.penColor(.white)
-            t.right(-180)
-            t.penColor(.black)
-            t.goto(-470,200)
-            t.right(180)
-            //    t.forward(25)
-            t.right(-727)
-            
-            // p curve
-            t.curve(withSides: 20, withSize: 13, drawSides: 13)
-            t.right(110)
-            t.penUp()
-            t.goto(-460, 50)
+            t.uppercaseP()
             
             
             // e
@@ -66,6 +53,7 @@ class CanvasView: NSView {
             
             // Bottom curve
             t.curve(withSides: -12, withSize: 14, drawSides: 5)
+
             
             //t
             t.curve(withSides: -20, withSize: 15, drawSides: 5)
@@ -164,9 +152,25 @@ class CanvasView: NSView {
             // a
             // upper curve
             
-            t.penDown()
-            t.forward(40)
-            t.left(80)
+            t.penUp()
+            
+            t.setH(-26)
+            t.curve(withSides: 20, withSize: 6, drawSides: 9)
+            t.setH(145)
+            t.curve(withSides: 20, withSize: 6, drawSides: 9)
+           t.setH(-35)
+            t.curve(withSides: 20, withSize: 6, drawSides: 9)
+            t.setH(145)
+            t.curve(withSides: 1, withSize: 37, drawSides: 1)
+            t.setH(90)
+            t.forward(10)
+            
+            // n
+            
+             t.penDown()
+            t.curve(withSides: 20, withSize: 5, drawSides: 3)
+            
+            t.hideTortoise()
             
         }
     }

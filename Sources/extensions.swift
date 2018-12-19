@@ -52,4 +52,25 @@ public extension Tortoise {
         }
         self.penUp()
     }
-}
+
+    func uppercaseP() {
+        // Draw stick
+        self.penColor(.white)
+        self.right(-180)
+        self.penColor(.black)
+        self.goto(-470, 200)
+        self.right(180)
+        //    self.forward(25)
+        self.right(-727)
+
+        // p curve
+        self.curve(withSides: 20, withSize: 13, drawSides: 13)
+        self.right(110)
+        self.penUp()
+        self.goto(-460, 50)
+    }
+    // Insert next function below this line
+
+    // Insert next function below this line
+
+} // END of Tortoise extension
